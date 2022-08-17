@@ -151,7 +151,7 @@ filter()
 
 // DOM
 
-function caracteristicsOfProducts(index, visualization) {
+function products1(index, visualization) {
     let contenedor = document.createElement("ul");
     contenedor.innerHTML = `<li> ${products[index].name} </li>
     <li> precio: ${products[index].price} </li>`
@@ -161,7 +161,7 @@ function caracteristicsOfProducts(index, visualization) {
     divContainer.appendChild(contenedor);
 }
 
-caracteristicsOfProducts(0, ".ssd") 
+products1(0, ".ssd") 
 
 
 let tituloDelta  = document.querySelector(".Letra")
